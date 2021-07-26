@@ -1,2 +1,2 @@
-insert into user_user values(1,'qwerty','qwerty')
-insert into user_user values(2,'qwerty123','qwerty123')
+insert into user_user values(1,'$2a$10$tWwzRfSDdtIClM5kB01Gpe58kezft2PacV9f/A9m11lh9iIPBxhdG','qwerty')
+insert into user_user values(2,'$2a$10$w5BmNieqjgbnY4tbmDP37.g3aPE.0NhRdifdI0aHmaAd42EnavQfy','qwerty123')
