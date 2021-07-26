@@ -7,6 +7,7 @@ HELP.md
 *.iml
 # Log file
 *.log
+/target
 
 # BlueJ files
 *.ctxt
