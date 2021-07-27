@@ -1,4 +1,4 @@
-package com.security.spring.service.impl;
+package com.security.spring.service;
 
 import com.security.spring.entity.User;
 import com.security.spring.pojo.UserDetailsImpl;
