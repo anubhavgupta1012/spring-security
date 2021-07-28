@@ -39,6 +39,5 @@ public class CustomFilter implements Filter {
             SecurityContextHolder.getContext().setAuthentication(authentication);
             filterChain.doFilter(servletRequest, servletResponse);
         }
-
     }
 }
