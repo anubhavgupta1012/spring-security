@@ -40,6 +40,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+        /*
+        * Since we are adding our CustomFilter and delegating request to AuthenticationManager So
+        * Spring Security default Login Page won't be shown. But if we just propagate the request
+        * by doing  filterChain.doFilter(servletRequest, servletResponse); and from our CustomFilter we do not delegate
+        * to AuthenticationManger it will show the Spring Security default Login Page
+        */
         http.addFilterAt(customFilter, BasicAuthenticationFilter.class);
     }
 
